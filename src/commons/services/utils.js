@@ -80,7 +80,7 @@
             //     url = config.baseUrl + "Get" + objectType +"List";
             // }
 
-            url = config.baseUrl + "Get" + objectType +"List";
+            url = config.baseUrl + "Get" + objectType +"List.json";
 
             getObjectListRequest = {
                 method: "GET",
