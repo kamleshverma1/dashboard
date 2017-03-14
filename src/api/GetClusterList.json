@@ -17,6 +17,167 @@
           "used": "0",
           "min_size": "2"
         }
+      },
+      "volumes" : {
+        "123e0a4d-317b-4229-91dc-ea6a1c78819f": {
+            "arbiter_count": "0",
+            "usable_capacity": "",
+            "name": "vol1",
+            "rebal_id": "8969c312-ea97-4aa4-8c52-fb452c551098",
+            "rebal_status": "completed",
+            "transport_type": "tcp",
+            "vol_type": "Distribute",
+            "snap_count": "0",
+            "rebal_skipped": "0",
+            "snapd_inited": "True",
+            "snapd_status": "Offline",
+            "brick_count": "2",
+            "disperse_count": "0",
+            "rebal_data": "0Bytes",
+            "rebal_failures": "0",
+            "rebal_lookedup": "0",
+            "stripe_count": "1",
+            "subvol_count": "2",
+            "deleted": "",
+            "redundancy_count": "0",
+            "replica_count": "1",
+            "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f",
+            "rebal_files": "0",
+            "bricks": {
+                "dhcp43-109.lab.eng.blr.redhat.com:_root_bricks_vol1_b11": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-109.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-109.lab.eng.blr.redhat.com:/root/bricks/vol1_b1",
+                    "port": "49152",
+                    "status": "Started",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                },
+                "dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol1_b22": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol1_b2",
+                    "port": "",
+                    "status": "",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                },
+                "dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol1_b23": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol1_b2",
+                    "port": "",
+                    "status": "",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                },
+                "dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol1_b24": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol1_b2",
+                    "port": "",
+                    "status": "",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                },"dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol1_b25": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol1_b2",
+                    "port": "",
+                    "status": "",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                },"dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol1_b26": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol1_b2",
+                    "port": "",
+                    "status": "",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                }
+            },
+            "pcnt_used": "",
+            "used_capacity": "",
+            "quorum_status": "not_applicable",
+            "status": "Started",
+            "options": {
+                "performance.readdir-ahead": "on",
+                "nfs.disable": "on",
+                "transport.address-family": "inet"
+            }
+        },
+        "96c6169a-3135-4653-90b6-ca8a339bc4f5" : {
+            "brick_count": "2",
+            "rebal_failures": "0",
+            "redundancy_count": "0",
+            "status": "Started",
+            "rebal_id": "c7b8af98-202f-45e5-829b-0f3f2d959ae9",
+            "rebal_skipped": "0",
+            "replica_count": "1",
+            "vol_id": "96c6169a-3135-4653-90b6-ca8a339bc4f5",
+            "pcnt_used": "",
+            "usable_capacity": "",
+            "deleted": "",
+            "disperse_count": "0",
+            "snapd_inited": "True",
+            "transport_type": "tcp",
+            "name": "vol2",
+            "snap_count": "0",
+            "bricks": {
+                "dhcp43-109.lab.eng.blr.redhat.com:_root_bricks_vol2_b154": {
+                    "status": "Started",
+                    "vol_id": "96c6169a-3135-4653-90b6-ca8a339bc4f5",
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-109.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-109.lab.eng.blr.redhat.com:/root/bricks/vol2_b1",
+                    "port": "49153"
+                },
+                "dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol2_b276": {
+                    "status": "",
+                    "vol_id": "96c6169a-3135-4653-90b6-ca8a339bc4f5",
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol2_b2",
+                    "port": ""
+                },"dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol1_b289": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol1_b2",
+                    "port": "",
+                    "status": "",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                }
+                ,"dhcp43-49.lab.eng.blr.redhat.com:_root_bricks_vol1_b234": {
+                    "filesystem_type": "",
+                    "hostname": "dhcp43-49.lab.eng.blr.redhat.com",
+                    "mount_opts": "",
+                    "path": "dhcp43-49.lab.eng.blr.redhat.com:/root/bricks/vol1_b2",
+                    "port": "",
+                    "status": "",
+                    "vol_id": "123e0a4d-317b-4229-91dc-ea6a1c78819f"
+                }
+            },
+            "arbiter_count": "0",
+            "rebal_data": "0Bytes",
+            "vol_type": "Distribute",
+            "options": {
+                "performance.readdir-ahead": "on",
+                "transport.address-family": "inet",
+                "nfs.disable": "on"
+            },
+            "stripe_count": "1",
+            "subvol_count": "2",
+            "quorum_status": "not_applicable",
+            "rebal_files": "0",
+            "rebal_lookedup": "0",
+            "rebal_status": "completed",
+            "snapd_status": "Offline",
+            "used_capacity": ""
+        }
       }
     }
   ]
